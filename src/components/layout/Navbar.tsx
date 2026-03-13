@@ -7,11 +7,11 @@ import { Search } from 'lucide-react'
 
 const navLinks = [
   { name: 'HOME', href: '/' },
-  { name: 'PRODUCTS', href: '#' },
-  { name: 'SERVICES', href: '#' },
-  { name: 'PORTFOLIO', href: '#' },
-  { name: 'BLOG', href: '#' },
-  { name: 'CONTACT US', href: '#' },
+  { name: 'PRODUCTS', href: 'products' },
+  { name: 'SERVICES', href: 'services' },
+  { name: 'PORTFOLIO', href: 'portfolio' },
+  { name: 'BLOG', href: 'blog' },
+  { name: 'CONTACT US', href: 'contact-us' },
 ]
 
 export function Navbar() {
